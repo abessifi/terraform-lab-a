@@ -55,4 +55,4 @@ $ ansible -i hosts -m ping webservers
 $ ansible-playbook -i hosts apache.yml
 ```
 
-6. Get the Loadbalancer IP and visit the http://<lb-ip>
+6. Get the Loadbalancer IP and visit the http://\<lb-ip\>
