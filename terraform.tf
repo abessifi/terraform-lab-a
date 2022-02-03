@@ -1,5 +1,9 @@
+provider "alicloud" {
+  ## discrovered from envvars
+}
+
 resource "alicloud_vpc" "vpc" {
-  vpc_name   = "lab-a-vpc"
+  vpc_name   = "lab-a-vpc-demo"
   cidr_block = "192.168.0.0/16"
 }
 
